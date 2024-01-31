@@ -1,0 +1,73 @@
+.dropdown-container {
+  background-color: aqua;
+  padding: 16px 20px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.content-down {
+  display: inline;
+  position: relative;
+}
+.nav-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background-color: aqua;
+  padding: 10px;
+  max-width: 100px;
+  text-align: left;
+  display: none;
+}
+.nav-dropdown a {
+  display: block;
+}
+.nav-dropdown a:hover {
+  background-color: gray;
+}
+.content-down:hover .nav-dropdown {
+  display: block;
+}
+
+
+
+
+
+.facebook-drop {
+  display: inline;
+  position: relative;
+}
+
+.developer-drop{
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  max-width: 100px;
+  background-color: aqua;
+  text-align: left;
+  padding: 10px;
+  display: none;
+}
+
+.developer-drop a{
+  display: block;
+ 
+}
+
+.developer-drop a:hover{
+    background-color: white;
+
+   
+  }
+
+.facebook-drop:hover .developer-drop{
+    display: block;
+   
+}
+
+.wev{
+    font-size: 13px;
+}
